@@ -2,11 +2,11 @@ i fr just wanted to remove the stupid credit since iremove it anyways and make i
 
 ## Script
 ```lua
-local owner = "Upbolt"
+local owner = "DevArilis"
 local branch = "revision"
 
 local function webImport(file)
-    return loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/%s/Hydroxide/%s/%s.lua"):format(owner, branch, file)), file .. '.lua')()
+    return loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/%s/Hydroxide-Edit/%s/%s.lua"):format(owner, branch, file)), file .. '.lua')()
 end
 
 webImport("init")
