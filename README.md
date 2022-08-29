@@ -1,3 +1,5 @@
+i fr just wanted to remove the stupid credit since iremove it anyways and make it a one liner and removed the welcome message. thats all lmao
+
 ## Script
 ```lua
 local owner = "Upbolt"
